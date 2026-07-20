@@ -10,7 +10,7 @@ export const skills: Skill[] = [
   {
     id: 1,
     title: "HTML",
-    icon: "/icons/icon3.png",
+    icon: "/icons/Icon3.png",
     percentage: 90,
     description:
       "Building the structure of web pages with semantic markup for accessibility.",
@@ -18,7 +18,7 @@ export const skills: Skill[] = [
   {
     id: 2,
     title: "CSS",
-    icon: "/icons/icon1.png",
+    icon: "/icons/Icon1.png",
     percentage: 90,
     description:
       "Building the structure of web pages with semantic markup for accessibility.",
@@ -26,7 +26,7 @@ export const skills: Skill[] = [
   {
     id: 3,
     title: "Javascript",
-    icon: "/icons/icon2.png",
+    icon: "/icons/Icon2.png",
     percentage: 90,
     description:
       "Building the structure of web pages with semantic markup for accessibility.",
@@ -34,7 +34,7 @@ export const skills: Skill[] = [
   {
     id: 4,
     title: "React JS",
-    icon: "/icons/icon7.png",
+    icon: "/icons/Icon7.png",
     percentage: 90,
     description:
       "Building the structure of web pages with semantic markup for accessibility.",
@@ -42,7 +42,7 @@ export const skills: Skill[] = [
   {
     id: 5,
     title: "MongoDB",
-    icon: "/icons/icon10.png",
+    icon: "/icons/Icon10.png",
     percentage: 90,
     description:
       "Building the structure of web pages with semantic markup for accessibility.",
@@ -50,7 +50,7 @@ export const skills: Skill[] = [
   {
     id: 6,
     title: "Docker",
-    icon: "/icons/icon8.png",
+    icon: "/icons/Icon8.png",
     percentage: 90,
     description:
       "Building the structure of web pages with semantic markup for accessibility.",
