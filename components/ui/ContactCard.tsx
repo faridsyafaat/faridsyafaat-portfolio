@@ -17,7 +17,7 @@ export default function ContactCard() {
       className="mt-10 rounded-[20px] border border-[#EAECF0] bg-white p-5 shadow-[0_10px_30px_rgba(16,24,40,0.06)]"
     >
       {/* Avatar */}
-      <div className="relative h-14 w-14 overflow-hidden rounded-full">
+      <div className="relative h-14 w-14 overflow-hidden rounded-full bg-[#F3993F]">
         <Image
           src="/images/youngman.png"
           alt="Young Man"
