@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 export default function HeroRating() {
   return (
     <motion.div
-      className="absolute top-[400px] left-[300px] z-10 w-[220px] rotate-[4deg] rounded-[32px] border border-[#FDFDFD1A] bg-[#28282833] p-6 text-white backdrop-blur-xl"
+      className="absolute top-[380px] left-[230px] z-10 w-[220px] rotate-[4deg] rounded-[32px] border border-[#FDFDFD1A] bg-[#28282833] p-6 text-white backdrop-blur-xl"
       animate={{
         y: [0, -5, 0],
         rotate: [4, 2, 4],

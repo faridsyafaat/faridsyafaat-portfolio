@@ -10,7 +10,7 @@ export default function HeroMobile() {
     <section className="relative overflow-hidden bg-[#160131] lg:hidden">
       <div className="relative h-[580px]">
         {/* Hero Title */}
-        <h1 className="absolute top-[92px] left-1/2 z-30 -translate-x-1/2 text-center text-[44px] leading-[52px] font-extrabold whitespace-nowrap text-white uppercase">
+        <h1 className="absolute top-[92px] left-1/2 z-30 -translate-x-1/2 text-center text-[40px] leading-[50px] font-extrabold whitespace-nowrap text-white uppercase">
           EDWIN ANDERSON
         </h1>
 

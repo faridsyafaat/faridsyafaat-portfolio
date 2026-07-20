@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function HeroVisual() {
   return (
-    <div className="absolute top-[50px] left-[211px] h-[1018px] w-[1018px]">
+    <div className="absolute top-[50px] left-[130px] h-[1018px] w-[1018px]">
       <Image
         src="/images/frame.png"
         alt="Frame"

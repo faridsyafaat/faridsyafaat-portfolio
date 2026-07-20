@@ -6,7 +6,7 @@ import Image from "next/image"
 export default function HeroFrontendCard() {
   return (
     <motion.div
-      className="absolute top-[660px] left-[240px] z-10 h-[104px] w-[283px] origin-right rounded-[32px] border border-[#FDFDFD1A] bg-[#28282833] px-6 py-5 backdrop-blur-xl"
+      className="absolute top-[660px] left-[150px] z-10 h-[104px] w-[283px] origin-right rounded-[32px] border border-[#FDFDFD1A] bg-[#28282833] px-6 py-5 backdrop-blur-xl"
       animate={{
         rotate: [-4, -7, -4],
       }}

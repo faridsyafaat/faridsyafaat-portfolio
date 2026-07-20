@@ -6,9 +6,9 @@ import { motion } from "framer-motion"
 export default function HeroFrontendCardMobile() {
   return (
     <motion.div
-      initial={{ rotate: -7 }}
+      initial={{ rotate: -9 }}
       animate={{
-        rotate: [-7, -4, -7],
+        rotate: [-9, -3, -9],
         y: [0, -3, 0],
       }}
       transition={{
@@ -17,7 +17,7 @@ export default function HeroFrontendCardMobile() {
         ease: "easeInOut",
       }}
       style={{ transformOrigin: "left center" }}
-      className="absolute top-[400px] left-[50px] z-10 w-[170px] rounded-[18px] border border-[#FDFDFD1A] bg-[#28282833] px-4 py-3 backdrop-blur-xl"
+      className="absolute top-[400px] left-[5px] z-10 w-[220px] rounded-[18px] border border-[#FDFDFD1A] bg-[#28282833] px-4 py-3 backdrop-blur-xl"
     >
       <p className="text-[17px] font-semibold text-white">Frontend Developer</p>
 

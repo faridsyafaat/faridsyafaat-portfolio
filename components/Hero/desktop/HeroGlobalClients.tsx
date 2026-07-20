@@ -6,7 +6,7 @@ import Image from "next/image"
 export default function HeroGlobalClients() {
   return (
     <motion.div
-      className="absolute top-[540px] right-[180px] z-10 w-[260px] origin-left rounded-[28px] border border-[#FDFDFD1A] bg-[#28282833] px-7 py-6 backdrop-blur-xl"
+      className="absolute top-[520px] right-[140px] z-10 w-[260px] origin-left rounded-[28px] border border-[#FDFDFD1A] bg-[#28282833] px-7 py-6 backdrop-blur-xl"
       initial={{
         opacity: 0,
         x: 80,
