@@ -7,7 +7,7 @@ import AboutStatisticsMobile from "./AboutStatisticsMobile"
 
 export default function AboutMobile() {
   return (
-    <section id="about" className="scroll-mt-[85px] bg-white py-16 lg:hidden">
+    <section className="scroll-mt-[85px] bg-white pt-8 pb-16 lg:hidden">
       <div className="mx-auto max-w-md px-5">
         <AboutHeaderMobile />
         <div className="mt-10 space-y-6">

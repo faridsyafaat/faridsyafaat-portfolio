@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative scroll-mt-[56px] overflow-hidden bg-[#FFFFFF] py-20 md:py-28"
+      className="relative scroll-mt-[85px] overflow-hidden bg-[#FFFFFF] pt-10 pb-20 md:pt-12 md:pb-28"
     >
       {/* Background Frame */}
       <div className="absolute inset-x-0 top-240 z-0 md:top-40 lg:top-85">

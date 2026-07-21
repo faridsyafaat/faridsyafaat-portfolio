@@ -37,32 +37,31 @@ export default function Navbar() {
   }, [])
 
   useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY + 120
+    const sections = navItems
+      .map((item) => document.getElementById(item.href.replace("#", "")))
+      .filter((section): section is HTMLElement => section !== null)
 
-      let currentSection = "home"
+    const observer = new IntersectionObserver(
+      () => {
+        const current = sections.find((section) => {
+          const rect = section.getBoundingClientRect()
 
-      navItems.forEach((item) => {
-        const id = item.href.replace("#", "")
-        const section = document.getElementById(id)
+          return rect.top <= 120 && rect.bottom > 120
+        })
 
-        if (!section) return
-
-        if (scrollPosition >= section.offsetTop) {
-          currentSection = id
+        if (current) {
+          setActiveSection(current.id)
         }
-      })
+      },
+      {
+        root: null,
+        threshold: [0, 0.25, 0.5, 0.75, 1],
+      }
+    )
 
-      setActiveSection(currentSection)
-    }
+    sections.forEach((section) => observer.observe(section))
 
-    handleScroll()
-
-    window.addEventListener("scroll", handleScroll)
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll)
-    }
+    return () => observer.disconnect()
   }, [])
 
   return (
@@ -138,6 +137,7 @@ export default function Navbar() {
         isOpen={isOpen}
         onClose={() => setIsOpen(false)}
         activeSection={activeSection}
+        setActiveSection={setActiveSection}
       />
     </>
   )

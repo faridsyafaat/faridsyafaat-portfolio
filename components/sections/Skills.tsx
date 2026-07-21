@@ -18,7 +18,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="scroll-mt-[56px] bg-white pt-12 pb-16 md:scroll-mt-[56px] md:pt-16 md:pb-20"
+      className="scroll-mt-[85px] bg-white pt-12 pb-16 md:scroll-mt-[56px] md:pt-16 md:pb-20"
     >
       <div className="mx-auto max-w-6xl px-6">
         {/* Heading */}

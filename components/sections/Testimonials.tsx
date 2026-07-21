@@ -20,7 +20,7 @@ export default function Testimonials() {
   return (
     <section
       id="testimonials"
-      className="scroll-mt-[56px] bg-[#F8F8F8] py-20 md:pt-28 md:pb-20"
+      className="scroll-mt-[85px] bg-[#F8F8F8] py-20 md:pt-28 md:pb-20"
     >
       <div className="mx-auto max-w-6xl px-6">
         {/* Heading */}

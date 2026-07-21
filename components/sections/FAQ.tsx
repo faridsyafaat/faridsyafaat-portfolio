@@ -8,7 +8,7 @@ import ContactCard from "../ui/ContactCard"
 
 export default function FAQ() {
   return (
-    <section id="faq" className="w-full scroll-mt-[58px] bg-[#FFFFFF] px-6">
+    <section id="faq" className="w-full scroll-mt-[110px] bg-[#FFFFFF] px-6">
       <div className="mx-auto max-w-6xl px-6">
         <motion.div
           initial={{ opacity: 0, y: 35 }}

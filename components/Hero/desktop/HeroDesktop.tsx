@@ -7,7 +7,7 @@ import HeroGlobalClients from "./HeroGlobalClients"
 export default function HeroDesktop() {
   return (
     <section className="relative hidden bg-[#160131] lg:block">
-      <div className="relative mx-auto h-[910px] max-w-[1440px] px-[25px]">
+      <div className="relative -top-17 mx-auto h-[910px] max-w-[1440px] px-[25px]">
         <HeroTitle />
         <HeroVisual />
         <HeroRating />

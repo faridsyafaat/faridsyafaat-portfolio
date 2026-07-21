@@ -10,6 +10,7 @@ type MobileMenuProps = {
   isOpen: boolean
   onClose: () => void
   activeSection: string
+  setActiveSection: (section: string) => void
 }
 
 const menus = [
@@ -25,6 +26,7 @@ export default function MobileMenu({
   isOpen,
   onClose,
   activeSection,
+  setActiveSection,
 }: MobileMenuProps) {
   return (
     <AnimatePresence>
@@ -83,7 +85,10 @@ export default function MobileMenu({
                   <Link
                     key={menu.label}
                     href={menu.href}
-                    onClick={onClose}
+                    onClick={() => {
+                      setActiveSection(menu.href.replace("#", ""))
+                      onClose()
+                    }}
                     className={`text-[20px] font-medium transition-all duration-300 ${
                       isActive
                         ? "text-[#6600EB]"

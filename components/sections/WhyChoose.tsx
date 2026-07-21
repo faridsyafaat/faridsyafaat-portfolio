@@ -7,7 +7,7 @@ export default function WhyChoose() {
   return (
     <section
       id="why-choose"
-      className="scroll-mt-[56px] bg-[#F5F5F5] py-16 md:py-28"
+      className="scroll-mt-[85px] bg-[#F5F5F5] py-16 md:py-28"
     >
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         {/* Heading */}

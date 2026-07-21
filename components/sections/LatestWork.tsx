@@ -27,7 +27,10 @@ const itemVariants = {
 
 export default function LatestWork() {
   return (
-    <section id="projects" className="scroll-mt-[56px] bg-white py-16 md:py-28">
+    <section
+      id="projects"
+      className="scroll-mt-[85px] bg-white pt-8 pb-16 md:pt-12 md:pb-28"
+    >
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         {/* Heading */}
         <motion.div

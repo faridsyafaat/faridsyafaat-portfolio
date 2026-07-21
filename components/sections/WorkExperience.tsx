@@ -9,7 +9,7 @@ export default function WorkExperience() {
   return (
     <section
       id="experience"
-      className="scroll-mt-[56px] bg-white py-20 md:pt-20 md:pb-28"
+      className="scroll-mt-[85px] bg-white py-20 md:pt-20 md:pb-28"
     >
       <div className="mx-auto max-w-6xl px-6">
         {/* Heading */}
