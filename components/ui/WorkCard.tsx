@@ -45,6 +45,12 @@ export default function WorkCard({ work }: Props) {
         {work.title}
       </h3>
 
+      {work.description && (
+        <p className="mt-2 text-sm leading-6 text-gray-500">
+          {work.description}
+        </p>
+      )}
+
       {/* Link */}
       <Link
         href={work.url}

@@ -3,6 +3,7 @@ export interface WorkItem {
   category: string
   year: string
   title: string
+  description?: string
   image: string
   url: string
 }
@@ -13,6 +14,8 @@ export const works: WorkItem[] = [
     category: "Web Application",
     year: "2024",
     title: "Restaurant Booking & Discovery App",
+    description:
+      "A restaurant web application for discovering culinary experiences, exploring restaurant offerings, and managing the booking and ordering experience.",
     image: "/images/restaurant-home.png",
     url: "https://restaurant-booking-app-alpha.vercel.app",
   },
