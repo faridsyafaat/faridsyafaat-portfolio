@@ -16,17 +16,19 @@ export const works: WorkItem[] = [
     title: "Restaurant Booking & Discovery App",
     description:
       "A restaurant web application for discovering culinary experiences, exploring restaurant offerings, and managing the booking and ordering experience.",
-    image: "/images/restaurant-home.png",
+    image: "/images/restaurantnew.png",
     url: "https://restaurant-booking-app-alpha.vercel.app",
   },
 
   {
     id: 2,
-    category: "Dashboard",
+    category: "Web Application",
     year: "2024",
-    title: "Dashboard SaaS Task Management",
-    image: "/images/work2.png",
-    url: "#",
+    title: "Movie Explorer App",
+    description:
+      "A movie discovery web application for exploring movies, viewing details, managing favorites, and watching trailers.",
+    image: "/images/movie.png",
+    url: "https://movie-explorer-app-beige.vercel.app",
   },
 
   {
