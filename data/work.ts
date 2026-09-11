@@ -15,7 +15,7 @@ export const works: WorkItem[] = [
     year: "2024",
     title: "Restaurant Booking & Discovery App",
     description:
-      "A restaurant web application for discovering culinary experiences, exploring restaurant offerings, and managing the booking and ordering experience.",
+      "A restaurant web application for discovering culinary experiences, exploring restaurant offerings, managing and ordering experience.",
     image: "/images/restaurantnew.png",
     url: "https://restaurant-booking-app-alpha.vercel.app",
   },
@@ -33,37 +33,44 @@ export const works: WorkItem[] = [
 
   {
     id: 3,
-    category: "Dashboard",
+    category: "Web Application",
     year: "2024",
-    title: "Dashboard SaaS Task Management",
-    image: "/images/work3.png",
-    url: "#",
+    title: "Booking Hotel",
+    description:
+      "A hotel booking web application for searching rooms, viewing room details, making reservations, and booking information.",
+    image: "/images/booking.png",
+    url: "https://booking-app-1fny.vercel.app",
   },
-
   {
     id: 4,
-    category: "Dashboard",
+    category: "Web Application",
     year: "2024",
-    title: "Dashboard SaaS Task Management",
-    image: "/images/work4.png",
-    url: "#",
+    title: "Library App",
+    description:
+      "A school library web application for managing books, members, borrowing activities, and library information.",
+    image: "/images/library2.png",
+    url: "https://library-web-app-smoky.vercel.app",
   },
 
   {
     id: 5,
-    category: "Dashboard",
+    category: "Web Application",
     year: "2024",
-    title: "Dashboard SaaS Task Management",
-    image: "/images/work5.png",
-    url: "#",
+    title: "Social Media App",
+    description:
+      "Aplikasi media sosial sederhana dengan fitur posting, komentar, dan interaksi pengguna.",
+    image: "/images/media.png",
+    url: "https://github.com/faridsyafaat/social-media-app",
   },
 
   {
     id: 6,
-    category: "Dashboard",
+    category: "Web Application",
     year: "2024",
-    title: "Dashboard SaaS Task Management",
-    image: "/images/work6.png",
-    url: "#",
+    title: "SIGAP-NESAS",
+    description:
+      "Aplikasi edukasi untuk membentuk karakter anak melalui 7 Kebiasaan Anak Indonesia Hebat (7 KAIH).",
+    image: "/images/sigap.png",
+    url: "https://sigap.smpnegeri1sobang.sch.id",
   },
 ]
