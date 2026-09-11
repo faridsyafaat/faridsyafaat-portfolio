@@ -26,9 +26,9 @@ export default function AboutProfile() {
 
         alt="Farid Syafaat"
 
-        width={420}
+        width={380}
 
-        height={420}
+        height={380}
 
         className="absolute bottom-0 left-1/2 z-20 -translate-x-1/2 transition-all duration-500 ease-out hover:-translate-x-1/2 hover:-translate-y-2 hover:scale-105"
       />

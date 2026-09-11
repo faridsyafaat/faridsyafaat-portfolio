@@ -20,8 +20,8 @@ export default function AboutProfileMobile() {
       <Image
         src="/images/faridsyafaat.png"
         alt="Farid Syafaat"
-        width={240}
-        height={240}
+        width={340}
+        height={340}
         className="absolute bottom-0 left-1/2 z-20 -translate-x-1/2 object-contain transition-all duration-500 ease-out hover:-translate-x-1/2 hover:-translate-y-2 hover:scale-105"
       />
 
