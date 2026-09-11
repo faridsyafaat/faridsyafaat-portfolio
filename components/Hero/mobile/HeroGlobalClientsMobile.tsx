@@ -16,7 +16,7 @@ export default function HeroGlobalClientsMobile() {
         ease: "easeInOut",
       }}
       style={{ transformOrigin: "right center" }}
-      className="absolute top-[370px] right-[12px] z-30 w-[165px] rounded-[20px] border border-[#FDFDFD1A] bg-[#28282833] px-4 py-4 backdrop-blur-xl"
+      className="absolute top-[160px] right-[12px] z-30 w-[165px] rounded-[20px] border border-[#FDFDFD1A] bg-[#28282833] px-4 py-4 backdrop-blur-xl"
     >
       <h2 className="text-[16px] leading-none font-semibold text-[#F9A826]">
         Web Apps

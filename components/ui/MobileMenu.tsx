@@ -53,14 +53,14 @@ export default function MobileMenu({
             <div className="flex items-center justify-between">
               <Link href="#home" className="flex items-center gap-3">
                 <Image
-                  src="/images/logo2.png"
-                  alt="Logo"
+                  src="/images/logofs.png"
+                  alt="Farid Syafaat Logo"
                   width={28}
-                  height={28}
+                  height={30}
+                  className="brightness-0"
                 />
-
                 <span className="text-[22px] font-bold text-black">
-                  Your Logo
+                  Farid Syafaat
                 </span>
               </Link>
 
@@ -102,10 +102,17 @@ export default function MobileMenu({
             </nav>
 
             {/* Button */}
-            <button className="mt-auto flex w-full cursor-pointer items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#4F0FFF] to-[#8B32FF] py-4 font-medium text-white transition-all duration-200 hover:scale-[1.02] active:scale-95">
+            <Link
+              href="#contact"
+              onClick={() => {
+                setActiveSection("contact")
+                onClose()
+              }}
+              className="mt-auto flex w-full cursor-pointer items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#4F0FFF] to-[#8B32FF] py-4 font-medium text-white transition-all duration-200 hover:scale-[1.02] active:scale-95"
+            >
               <Mail size={20} />
               Hire Me
-            </button>
+            </Link>
           </motion.div>
         </>
       )}

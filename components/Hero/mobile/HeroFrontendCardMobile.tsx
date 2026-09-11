@@ -17,7 +17,7 @@ export default function HeroFrontendCardMobile() {
         ease: "easeInOut",
       }}
       style={{ transformOrigin: "left center" }}
-      className="absolute top-[450px] left-[5px] z-30 w-[220px] rounded-[18px] border border-[#FDFDFD1A] bg-[#28282833] px-4 py-3 backdrop-blur-xl"
+      className="absolute top-[460px] left-[70px] z-30 w-[220px] rounded-[18px] border border-[#FDFDFD1A] bg-[#28282833] px-4 py-3 backdrop-blur-xl"
     >
       <p className="text-[17px] font-semibold text-[#F9A826]">
         Front-End Developer
