@@ -8,19 +8,19 @@ export interface WhyChooseItem {
 export const whyChooseData: WhyChooseItem[] = [
   {
     id: 1,
-    skill: "React Expert",
+    skill: "Front-End Development",
     me: true,
     other: false,
   },
   {
     id: 2,
-    skill: "Perfect Pixel",
+    skill: "React & JavaScript",
     me: true,
     other: false,
   },
   {
     id: 3,
-    skill: "TypeScript Proficiency",
+    skill: "Responsive Web Development",
     me: true,
     other: false,
   },
@@ -32,19 +32,19 @@ export const whyChooseData: WhyChooseItem[] = [
   },
   {
     id: 5,
-    skill: "Performance Optimization",
+    skill: "Laravel Development",
     me: true,
     other: false,
   },
   {
     id: 6,
-    skill: "Responsive Website",
+    skill: "Educational Technology",
     me: true,
     other: false,
   },
   {
     id: 7,
-    skill: "UI Design Proficiency (Figma)",
+    skill: "ERP Applications",
     me: true,
     other: false,
   },

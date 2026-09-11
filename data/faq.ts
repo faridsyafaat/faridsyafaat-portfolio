@@ -7,32 +7,33 @@ export interface FAQ {
 export const faqs: FAQ[] = [
   {
     id: 1,
-    question: "What's your approach to front-end development?",
+    question: "What technologies do you use?",
     answer:
-      "I focus on clean, maintainable code and prioritize user experience. My approach involves close collaboration with designers to ensure exact implementation and seamless interactions across all devices.",
+      "I work with modern web technologies including HTML, CSS, JavaScript, React, Next.js, Tailwind CSS, and Git. I also have experience with Laravel and ERP systems for backend integration.",
   },
   {
     id: 2,
-    question: "What's your approach to front-end development?",
+    question:
+      "Do you develop websites for schools and educational institutions?",
     answer:
-      "I write scalable and reusable components using React, Next.js, and TypeScript while following modern best practices.",
+      "Yes. I develop websites and web applications for schools and educational institutions, with a focus on usability, responsive design, and practical features.",
   },
   {
     id: 3,
-    question: "What's your approach to front-end development?",
+    question: "Can you integrate frontend applications with backend systems?",
     answer:
-      "Performance, accessibility, and responsiveness are always part of my development workflow.",
+      "Yes. I can integrate frontend applications with REST APIs and backend systems to support authentication, data management, and other application features.",
   },
   {
     id: 4,
-    question: "What's your approach to front-end development?",
+    question: "Do you provide website maintenance and updates?",
     answer:
-      "I enjoy collaborating with designers to transform Figma designs into pixel-perfect interfaces.",
+      "Yes. I provide maintenance, bug fixes, feature improvements, and ongoing updates based on project requirements.",
   },
   {
     id: 5,
-    question: "What's your approach to front-end development?",
+    question: "Are you available for freelance projects?",
     answer:
-      "Every project is developed with reusable components so it is easy to maintain in the future.",
+      "Yes. I am available for freelance web development projects, particularly frontend development and web applications.",
   },
 ]

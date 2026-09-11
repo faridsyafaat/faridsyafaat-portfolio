@@ -19,14 +19,14 @@ export default function TestimonialCard({ testimonial }: Props) {
       }}
       className="flex h-full flex-col items-center rounded-[24px] border border-[#EAECF0] bg-white px-8 py-8 text-center shadow-[0_10px_30px_rgba(16,24,40,0.06)]"
     >
-      {/* Logo */}
+      {/* Profile Photo */}
       <div className="mb-8 flex justify-center">
-        <div className="relative h-[48px] w-[114px]">
+        <div className="relative h-[90px] w-[90px] overflow-hidden rounded-full">
           <Image
             src={testimonial.logo}
-            alt={testimonial.company}
+            alt={testimonial.author}
             fill
-            className="object-contain"
+            className="object-cover"
           />
         </div>
       </div>

@@ -26,8 +26,8 @@ export default function AboutExpertSkillMobile() {
 
       {/* Description */}
       <p className="mt-5 text-[14px] leading-6 text-white/90">
-        Mastering modern technologies to deliver scalable and efficient digital
-        solutions.
+        Building modern web applications with React, JavaScript, and educational
+        technology.
       </p>
 
       {/* Tech Icons */}

@@ -13,48 +13,47 @@ export default function AboutWhyChooseDesktop() {
 
       {/* Description */}
       <p className="mt-6 text-[16px] leading-6 text-[#FFFFFF]">
-        Delivering excellence with innovative solutions and seamless execution.
+        Building useful digital solutions with a focus on front-end development,
+        responsive design, and educational technology.
       </p>
 
       {/* Badge Area */}
       <div className="relative mt-10 h-[150px]">
         {/* Row 1 */}
-        <Badge className={`${badgeStyle} top-0 left-[-60px]`}>Expert</Badge>
-
-        <Badge className={`${badgeStyle} top-0 left-[28px]`}>
-          Fullstack Developer
+        <Badge className={`${badgeStyle} top-0 left-[-40px]`}>
+          Front-End Developer
         </Badge>
 
-        <Badge className={`${badgeStyle} top-0 left-[211px]`}>
+        <Badge className={`${badgeStyle} top-0 left-[145px]`}>React</Badge>
+
+        <Badge className={`${badgeStyle} top-0 left-[230px]`}>
           Responsive Design
         </Badge>
 
         {/* Row 2 */}
-        <Badge className={`${badgeStyle} top-[52px] left-[-48px]`}>
-          &nbsp;
+        <Badge className={`${badgeStyle} top-[52px] left-[-40px]`}>
+          JavaScript
         </Badge>
 
-        <Badge className={`${badgeStyle} top-[52px] left-[-4px]`}>
-          React Expert
+        <Badge className={`${badgeStyle} top-[52px] left-[80px]`}>
+          5+ Years Experience
         </Badge>
 
-        <Badge className={`${badgeStyle} top-[52px] left-[128px]`}>
-          5 Years Experience
+        <Badge className={`${badgeStyle} top-[52px] left-[270px]`}>
+          Next.js
         </Badge>
-
-        <Badge className={`${badgeStyle} top-[52px] left-[306px]`}>React</Badge>
 
         {/* Row 3 */}
-        <Badge className={`${badgeStyle} top-[104px] left-[-60px]`}>
-          Expert
-        </Badge>
-
-        <Badge className={`${badgeStyle} top-[104px] left-[28px]`}>
+        <Badge className={`${badgeStyle} top-[104px] left-[-40px]`}>
           Clean Code
         </Badge>
 
-        <Badge className={`${badgeStyle} top-[104px] left-[158px]`}>
-          Performance Optimization
+        <Badge className={`${badgeStyle} top-[104px] left-[85px]`}>
+          Tailwind CSS
+        </Badge>
+
+        <Badge className={`${badgeStyle} top-[104px] left-[215px]`}>
+          Educational Technology
         </Badge>
       </div>
     </div>

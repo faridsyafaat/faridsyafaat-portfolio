@@ -10,29 +10,29 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     id: 1,
-    logo: "/images/upwork.png",
-    company: "Upwork",
+    logo: "/images/jazuli.png",
+    company: "Jazuli",
     review:
-      "Thanks to their expertise, our website is now faster, more responsive, and visually stunning. We've seen a significant increase in user engagement!",
-    author: "Robert Lewandowski",
-    position: "Head of Engineering, Upwork",
+      "Penggunaan aplikasi SIGAP (Sistem Informasi Gerakan Anak Positif) dapat memberikan dampak nyata dalam proses pembentukan karakter siswa di sekolah. Melalui SIGAP, pemantauan penerapan 7 Kebiasaan Anak Indonesia Hebat menjadi jauh lebih terstruktur, terukur, dan berkesinambungan",
+    author: "Jazuli, S.Pd",
+    position: "Wakasek Kurikulum, SMPN 1 Sobang",
   },
   {
     id: 2,
-    logo: "/images/zapier.png",
-    company: "Zapier",
+    logo: "/images/rumli.png",
+    company: "Rumli",
     review:
-      "Thanks to their expertise, our website is now faster, more responsive, and visually stunning. We've seen a significant increase in user engagement!",
-    author: "Dani Olmo",
-    position: "Product Manager, Zapier",
+      "Aplikasi SIGAP dapat mempermudah proses evaluasi pembentukkan karakter siswa. Guru dan wali kelas juga dapat memantau grafik capaian bulanan, memberikan bimbingan serta dapat melakukan validasi laporan harian dengan cepat dan tepat.",
+    author: "Rumli Lugis, S.Si ",
+    position: "Wakasek Kesiswaan, SMPN 1 Sobang",
   },
   {
     id: 3,
-    logo: "/images/zoom.png",
-    company: "Zoom",
+    logo: "/images/fahri.png",
+    company: "Fahri",
     review:
-      "Thanks to their expertise, our website is now faster, more responsive, and visually stunning. We've seen a significant increase in user engagement!",
-    author: "Jude Bellingham",
-    position: "Vice President, Zoom",
+      "Aplikasi SIGAP sangat bermanfaat untuk pembentukan karakter dan kebiasaan positif siswa. Dengan adanya pengawasan dari guru dan orangtua, diharapkan bisa menciptakan situasi sekolah yang terarah dan mendukung perkembangan siswa.",
+    author: "Fahrizal Khalifatullah, S.Pd",
+    position: "Guru BK, SMPN 1 Sobang",
   },
 ]

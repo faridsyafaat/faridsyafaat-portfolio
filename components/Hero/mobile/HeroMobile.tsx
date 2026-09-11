@@ -11,7 +11,7 @@ export default function HeroMobile() {
       <div className="relative h-[580px]">
         {/* Hero Title */}
         <h1 className="absolute top-[92px] left-1/2 z-30 -translate-x-1/2 text-center text-[40px] leading-[50px] font-extrabold whitespace-nowrap text-white uppercase">
-          EDWIN ANDERSON
+          FARID SYAFAAT
         </h1>
 
         {/* Background Frame */}
@@ -25,11 +25,11 @@ export default function HeroMobile() {
 
         {/* Hero Image */}
         <Image
-          src="/images/youngman.png"
-          alt="Hero"
-          width={346}
-          height={346}
-          className="absolute top-[220px] left-1/2 z-20 mt-8 -translate-x-1/2"
+          src="/images/faridsyafaat.png"
+          alt="Farid Syafaat"
+          width={300}
+          height={300}
+          className="absolute top-[220px] left-1/2 z-20 mt-8 -translate-x-1/2 object-contain"
         />
 
         <HeroRatingMobile />

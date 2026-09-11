@@ -1,10 +1,19 @@
 import Image from "next/image"
 
 const items = [
-  "Frontend Developer",
-  "Expert React",
-  "Programmer",
-  "Mobile Developer",
+  "Front-End Developer",
+
+  "React",
+
+  "JavaScript",
+
+  "Next.js",
+
+  "Tailwind CSS",
+
+  "Web Development",
+
+  "Educational Technology",
 ]
 
 export default function Marquee() {

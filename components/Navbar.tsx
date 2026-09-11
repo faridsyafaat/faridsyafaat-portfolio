@@ -71,14 +71,16 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="#home" className="flex items-center gap-2">
             <Image
-              src="/images/yourlogo.png"
-              alt="Logo"
+              src="/images/logofs.png"
+              alt="Farid Syafaat Logo"
               width={26}
               height={29}
               priority
             />
 
-            <span className="text-lg font-semibold text-white">Your Logo</span>
+            <span className="text-lg font-semibold text-white">
+              Farid Syafaat
+            </span>
           </Link>
 
           {/* Desktop Menu */}

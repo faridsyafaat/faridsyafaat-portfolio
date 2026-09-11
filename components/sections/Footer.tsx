@@ -11,20 +11,20 @@ export default function Footer() {
         {/* Left Side */}
         <div className="flex flex-col items-start gap-4 md:flex-row md:items-center md:gap-8">
           {/* Logo */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
             <Image
-              src="/images/yourlogo.png"
-              alt="Your Logo"
-              width={28}
-              height={28}
+              src="/images/logofs.png"
+              alt="Farid Syafaat Logo"
+              width={26}
+              height={29}
             />
 
-            <span className="text-lg font-bold text-white">Your Logo</span>
+            <span className="text-lg font-bold text-white">Farid Syafaat</span>
           </div>
 
           {/* Copyright */}
           <p className="text-center text-sm text-white/70 md:text-left">
-            © 2025 Edwin Anderson. All rights reserved.
+            © 2026 Farid Syafaat. All rights reserved.
           </p>
         </div>
 

@@ -13,11 +13,11 @@ export default function AboutStatistics() {
       />
 
       {/* Judul */}
-      <div className="absolute top-8 left-10">
+      <div className="absolute top-16 left-10">
         <h3 className="text-[34px] leading-tight font-semibold text-white">
           Building Digital
           <br />
-          Products
+          Solutions
         </h3>
 
         <Image
@@ -29,74 +29,20 @@ export default function AboutStatistics() {
         />
       </div>
 
-      {/* Flag 1 */}
-      <div className="absolute top-[150px] left-[230px]">
-        <div className="relative transition-transform duration-300 hover:scale-110">
-          <Image
-            src="/icons/bendera1.png"
-            alt="Germany"
-            width={50}
-            height={32}
-          />
-
-          {/* Marker */}
-          <div className="absolute top-[2px] left-[52px]">
-            <div className="flex h-3 w-3 animate-pulse items-center justify-center rounded-full bg-white/20">
-              <div className="h-2 w-2 rounded-full bg-white" />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Flag 2 */}
-      <div className="absolute top-[130px] left-[510px]">
-        <div className="relative transition-transform duration-300 hover:scale-110">
-          <Image src="/icons/bendera2.png" alt="US" width={50} height={32} />
-
-          {/* Marker */}
-          <div className="absolute top-[2px] left-[52px]">
-            <div className="flex h-3 w-3 animate-pulse items-center justify-center rounded-full bg-white/20">
-              <div className="h-2 w-2 rounded-full bg-white" />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Flag 3 */}
-      <div className="absolute top-[260px] left-[550px]">
-        <div className="relative transition-transform duration-300 hover:scale-110">
-          <Image
-            src="/icons/bendera3.png"
-            alt="Indonesia"
-            width={50}
-            height={32}
-          />
-
-          {/* Marker */}
-          <div className="absolute top-[2px] left-[52px]">
-            <div className="flex h-3 w-3 animate-pulse items-center justify-center rounded-full bg-white/20">
-              <div className="h-2 w-2 rounded-full bg-white" />
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Statistics */}
       <div className="absolute bottom-10 left-10 transition-all duration-300 hover:-translate-y-2">
-        <div>
-          <h4 className="text-[40px] font-bold text-white">50+</h4>
-          <p className="text-[14px] text-white">Global Client&apos;s Handle</p>
-        </div>
+        <h4 className="text-[40px] font-bold text-[#F9A826]">5+</h4>
+        <p className="text-[14px] text-white">Years Experience</p>
       </div>
 
       <div className="absolute bottom-10 left-[230px] transition-all duration-300 hover:-translate-y-2">
-        <h4 className="text-[40px] font-bold text-white">99%</h4>
-        <p className="text-[14px] text-white">Client Satisfaction Rate</p>
+        <h4 className="text-[32px] font-bold text-[#F9A826]">React</h4>
+        <p className="text-[14px] text-white">Front-End Development</p>
       </div>
 
       <div className="absolute bottom-10 left-[440px] transition-all duration-300 hover:-translate-y-2">
-        <h4 className="text-[40px] font-bold text-white">100+</h4>
-        <p className="text-[14px] text-white">Project Delivered</p>
+        <h4 className="text-[32px] font-bold text-[#F9A826]">Education</h4>
+        <p className="text-[14px] text-white">School Projects</p>
       </div>
     </div>
   )

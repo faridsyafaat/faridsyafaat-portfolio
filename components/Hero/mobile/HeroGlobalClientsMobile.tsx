@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image"
 import { motion } from "framer-motion"
 
 export default function HeroGlobalClientsMobile() {
@@ -17,47 +16,15 @@ export default function HeroGlobalClientsMobile() {
         ease: "easeInOut",
       }}
       style={{ transformOrigin: "right center" }}
-      className="absolute top-[370px] right-[-12px] z-10 w-[165px] rounded-[20px] border border-[#FDFDFD1A] bg-[#28282833] px-4 py-4 backdrop-blur-xl"
+      className="absolute top-[370px] right-[12px] z-30 w-[165px] rounded-[20px] border border-[#FDFDFD1A] bg-[#28282833] px-4 py-4 backdrop-blur-xl"
     >
-      <h2 className="text-[34px] leading-none font-extrabold text-white">
-        50+
+      <h2 className="text-[16px] leading-none font-semibold text-[#F9A826]">
+        Web Apps
       </h2>
 
-      <p className="mt-2 text-[13px] text-white">Global Clients</p>
-
-      <div className="mt-4 flex">
-        <Image
-          src="/images/person1.png"
-          alt="Person 1"
-          width={34}
-          height={34}
-          className="rounded-full"
-        />
-
-        <Image
-          src="/images/person2.png"
-          alt="Person 2"
-          width={34}
-          height={34}
-          className="-ml-2 rounded-full"
-        />
-
-        <Image
-          src="/images/person3.png"
-          alt="Person 3"
-          width={34}
-          height={34}
-          className="-ml-2 rounded-full"
-        />
-
-        <Image
-          src="/images/person4.png"
-          alt="Person 4"
-          width={34}
-          height={34}
-          className="-ml-2 rounded-full"
-        />
-      </div>
+      <p className="mt-3 text-[11px] leading-5 font-medium text-white">
+        Education & School Projects
+      </p>
     </motion.div>
   )
 }

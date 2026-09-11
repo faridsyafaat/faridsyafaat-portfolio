@@ -26,8 +26,8 @@ export default function AboutExpertSkill() {
 
       {/* Description */}
       <p className="mt-5 text-[11px] leading-5 text-white">
-        Mastering modern technologies to deliver scalable and efficient digital
-        solutions.
+        Building modern web applications with React, JavaScript, and educational
+        technology.
       </p>
 
       {/* Skill Icons */}

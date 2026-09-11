@@ -13,7 +13,7 @@ export const skills: Skill[] = [
     icon: "/icons/Icon3.png",
     percentage: 90,
     description:
-      "Building the structure of web pages with semantic markup for accessibility.",
+      "Building semantic and accessible structures for modern web applications.",
   },
   {
     id: 2,
@@ -21,38 +21,37 @@ export const skills: Skill[] = [
     icon: "/icons/Icon1.png",
     percentage: 90,
     description:
-      "Building the structure of web pages with semantic markup for accessibility.",
+      "Creating responsive layouts and modern user interfaces across devices.",
   },
   {
     id: 3,
-    title: "Javascript",
+    title: "JavaScript",
     icon: "/icons/Icon2.png",
     percentage: 90,
     description:
-      "Building the structure of web pages with semantic markup for accessibility.",
+      "Developing interactive web experiences and dynamic application features.",
   },
   {
     id: 4,
-    title: "React JS",
+    title: "React",
     icon: "/icons/Icon7.png",
     percentage: 90,
     description:
-      "Building the structure of web pages with semantic markup for accessibility.",
+      "Building reusable components and responsive front-end applications.",
   },
   {
     id: 5,
-    title: "MongoDB",
-    icon: "/icons/Icon10.png",
-    percentage: 90,
-    description:
-      "Building the structure of web pages with semantic markup for accessibility.",
+    title: "Laravel",
+    icon: "/icons/Icon12.png",
+    percentage: 85,
+    description: "Developing web applications and backend APIs with Laravel.",
   },
   {
     id: 6,
-    title: "Docker",
-    icon: "/icons/Icon8.png",
-    percentage: 90,
+    title: "ERP",
+    icon: "/icons/Icon11.png",
+    percentage: 85,
     description:
-      "Building the structure of web pages with semantic markup for accessibility.",
+      "Developing and working with integrated business application systems.",
   },
 ]

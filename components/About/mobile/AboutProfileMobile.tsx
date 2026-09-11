@@ -8,21 +8,21 @@ export default function AboutProfileMobile() {
       <div className="absolute inset-0 bg-[radial-gradient(circle,rgba(255,255,255,.18)_1.5px,transparent_1.5px)] bg-[length:14px_14px] opacity-40" />
 
       {/* Text */}
-      <div className="absolute top-[160px] left-1/2 z-10 -translate-x-1/2">
-        <h2 className="text-center text-[54px] leading-[44px] font-bold tracking-tight text-[#F59E0B] uppercase">
-          EDWIN
+      <div className="absolute top-[180px] left-1/2 z-30 -translate-x-1/2">
+        <h2 className="text-center text-[44px] leading-[44px] font-bold tracking-tight text-[#0C4EAF] uppercase">
+          FARID
           <br />
-          ANDERSON
+          SYAFAAT
         </h2>
       </div>
 
       {/* Photo */}
       <Image
-        src="/images/youngman.png"
-        alt="Edwin"
-        width={320}
-        height={320}
-        className="absolute bottom-0 left-1/2 z-20 -translate-x-1/2 transition-all duration-500 ease-out hover:-translate-x-1/2 hover:-translate-y-2 hover:scale-105"
+        src="/images/faridsyafaat.png"
+        alt="Farid Syafaat"
+        width={240}
+        height={240}
+        className="absolute bottom-0 left-1/2 z-20 -translate-x-1/2 object-contain transition-all duration-500 ease-out hover:-translate-x-1/2 hover:-translate-y-2 hover:scale-105"
       />
 
       {/* Button */}

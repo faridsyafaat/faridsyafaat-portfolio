@@ -3,19 +3,21 @@ import Image from "next/image"
 export default function HeroVisual() {
   return (
     <div className="absolute top-[50px] left-[130px] h-[1018px] w-[1018px]">
+      {/* Frame background */}
       <Image
         src="/images/frame.png"
-        alt="Frame"
+        alt="Background Frame"
         fill
         className="object-contain opacity-70"
       />
 
+      {/* Farid Syafaat */}
       <Image
-        src="/images/youngman.png"
-        alt="Young Man"
-        width={758}
-        height={758}
-        className="absolute top-[155px] left-[109px] z-30"
+        src="/images/faridsyafaat.png"
+        alt="Farid Syafaat"
+        width={650}
+        height={650}
+        className="absolute top-[190px] left-[160px] z-0 object-contain"
       />
     </div>
   )
