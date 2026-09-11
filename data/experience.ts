@@ -10,29 +10,29 @@ export interface ExperienceItem {
 export const experiences: ExperienceItem[] = [
   {
     id: 1,
-    company: "Trustpilot",
-    logo: "/images/trust.png",
-    period: "2021-2024",
-    role: "Frontend Developer",
+    company: "Freelance / Independent",
+    logo: "/images/freelance.png",
+    period: "2024–Present",
+    role: "Web Developer",
     description:
-      "Built responsive web interfaces using modern frameworks like React.js, ensuring seamless integration with backend systems. Optimized performance, implemented accessible designs, and delivered clean, reusable code to enhance user experience and scalability.",
+      "Developing web applications for schools and educational institutions, from interface design and feature development to system integration, maintenance, and continuous improvement.",
   },
   {
     id: 2,
-    company: "Postman",
-    logo: "/images/post.png",
-    period: "2021-2024",
+    company: "Website Development",
+    logo: "/images/website.png",
+    period: "2024–Present",
     role: "Frontend Developer",
     description:
-      "Built responsive web interfaces using modern frameworks like React.js, ensuring seamless integration with backend systems. Optimized performance, implemented accessible designs, and delivered clean, reusable code to enhance user experience and scalability.",
+      "Building responsive and user-friendly websites using modern web technologies, with a focus on clean interfaces, performance, accessibility, and responsive design.",
   },
   {
     id: 3,
-    company: "Spotify",
-    logo: "/images/spot.png",
-    period: "2021-2024",
-    role: "Frontend Developer",
+    company: "UI/UX Development",
+    logo: "/images/uiux.png",
+    period: "2024–Present",
+    role: "UI/UX Developer",
     description:
-      "Built responsive web interfaces using modern frameworks like React.js, ensuring seamless integration with backend systems. Optimized performance, implemented accessible designs, and delivered clean, reusable code to enhance user experience and scalability.",
+      "Designing and implementing intuitive user interfaces with a focus on usability, visual consistency, responsive layouts, and smooth user experiences.",
   },
 ]
